@@ -23,7 +23,7 @@ describe('TestSuite',function()
         cy.get('.popupContainer').should('be.visible');
     })
 
-    it('Positive Login into CoffeeClub',function (){
+    it('Positive Login should be able to login successfully',function (){
         cy.get('[data-cy="close__CTA"]').click();
         cy.get('#longEmail').clear().type(this.key.username1);
         cy.get('#oldPassword').clear().type(this.key.password1);
@@ -37,11 +37,6 @@ describe('TestSuite',function()
         cy.title().should('eq','Register | Coffee Club | Costa Coffee')
     })
     it('Navigating to Forgot password screen page',function (){
-        cy.go('back')
-        cy.get('[data-cy="forgottenpassword__CTA"]').click();
-        cy.title().should('eq','Forgotten password | Coffee Club | Costa Coffee')
-    })
-    it('I should be able to login successfully',function (){
         cy.go('back')
         cy.get('[data-cy="forgottenpassword__CTA"]').click();
         cy.title().should('eq','Forgotten password | Coffee Club | Costa Coffee')
