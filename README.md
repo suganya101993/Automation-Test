@@ -1,5 +1,5 @@
 Cypress Example
-Codeship Status for qualityshepherd/cypress-example
+
 
 An example project using the automation tool, Cypress.
  These tests are quite basic but are intended to provide basic login functionality of common actions. I've included:
@@ -14,7 +14,7 @@ node js
 npm install cypress
 git
 Setup
-clone: git@github.com:**~~_~~~~_~~**qualityshepherd/cypress-example.git
+clone: git@github.com:https://github.com/suganya101993/suganya.git
 
 
 
