@@ -1,0 +1,11 @@
+{
+  "name": "AutomationTest",
+  "version": "1.0.0",
+  "dependencies": {
+    "cypress": "^5.2.0",
+    "cypress-cucumber-preprocessor": "^2.5.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
